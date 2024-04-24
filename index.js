@@ -18,7 +18,7 @@ add.addEventListener('click', () => {
     newItem.appendChild(checkbox);
 
     const newImage = document.createElement('img'); 
-    newImage.src = "photos/trash.png"; 
+    newImage.src = "trash.png"; 
     newImage.title = 'Remove';
     newItem.appendChild(newImage);
 
